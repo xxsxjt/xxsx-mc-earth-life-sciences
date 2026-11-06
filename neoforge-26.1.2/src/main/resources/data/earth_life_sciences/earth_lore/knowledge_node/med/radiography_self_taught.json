@@ -1,0 +1,36 @@
+{
+  "discipline": "earth_lore:med",
+  "tier": 6,
+  "gate": "theory",
+  "requires": [
+    {
+      "all": "earth_life_sciences:med/diagnostics"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_on_minecraft:lead",
+        "count": 16
+      },
+      {
+        "ingredient": "minecraft:glass",
+        "count": 8
+      },
+      {
+        "ingredient": "earth_on_minecraft:copper_power_cable",
+        "count": 8
+      }
+    ],
+    "ticks": 12000
+  },
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.med.radiography_self_taught",
+  "desc_key": "lore.earth_life_sciences.med.radiography_self_taught.desc"
+}

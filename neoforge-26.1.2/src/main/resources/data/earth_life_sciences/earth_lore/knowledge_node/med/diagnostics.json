@@ -1,0 +1,54 @@
+{
+  "discipline": "earth_lore:med",
+  "tier": 3,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_life_sciences:med/physiology"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "item": "earth_life_sciences:stethoscope"
+    },
+    {
+      "item": "earth_life_sciences:clinical_thermometer"
+    },
+    {
+      "item": "earth_life_sciences:patient_chart"
+    },
+    {
+      "block": "earth_life_sciences:clinic_desk"
+    },
+    {
+      "item": "earth_life_sciences:clinic_desk"
+    },
+    {
+      "readout": "earth_life_sciences:stethoscope"
+    },
+    {
+      "readout": "earth_life_sciences:clinical_thermometer"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "research": {
+    "items": [
+      {
+        "ingredient": "minecraft:paper",
+        "count": 8
+      },
+      {
+        "ingredient": "minecraft:glass",
+        "count": 2
+      }
+    ],
+    "ticks": 2400
+  },
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.med.diagnostics",
+  "desc_key": "lore.earth_life_sciences.med.diagnostics.desc"
+}

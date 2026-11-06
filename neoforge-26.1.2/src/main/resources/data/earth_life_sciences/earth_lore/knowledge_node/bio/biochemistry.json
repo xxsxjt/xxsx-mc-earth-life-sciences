@@ -1,0 +1,49 @@
+{
+  "discipline": "earth_lore:bio",
+  "tier": 4,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_life_sciences:bio/cell_biology"
+    },
+    {
+      "all": "earth_on_minecraft:che/organic_chemistry"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "block": "earth_life_sciences:centrifuge"
+    },
+    {
+      "item": "earth_life_sciences:centrifuge"
+    },
+    {
+      "item": "earth_life_sciences:enzyme_extract"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.bio.biochemistry",
+  "desc_key": "lore.earth_life_sciences.bio.biochemistry.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_on_minecraft:glucose",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_on_minecraft:ethanol",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_life_sciences:tissue_sample",
+        "count": 2
+      }
+    ],
+    "ticks": 4800
+  }
+}

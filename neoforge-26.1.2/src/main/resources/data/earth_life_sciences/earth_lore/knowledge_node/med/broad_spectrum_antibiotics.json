@@ -1,0 +1,48 @@
+{
+  "discipline": "earth_lore:med",
+  "tier": 7,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_life_sciences:med/antibiotics"
+    },
+    {
+      "all": "earth_life_sciences:bio/industrial_fermentation"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "item": "earth_life_sciences:streptomycin"
+    },
+    {
+      "item": "earth_life_sciences:tetracycline"
+    },
+    {
+      "item": "earth_life_sciences:chloramphenicol"
+    },
+    {
+      "item": "earth_life_sciences:vancomycin"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_life_sciences:pure_culture",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_on_minecraft:glucose",
+        "count": 8
+      }
+    ],
+    "ticks": 9600
+  },
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.med.broad_spectrum_antibiotics",
+  "desc_key": "lore.earth_life_sciences.med.broad_spectrum_antibiotics.desc"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " L ",
+    " B ",
+    "SBS"
+  ],
+  "key": {
+    "L": "earth_on_minecraft:optical_glass",
+    "B": "earth_on_minecraft:brass",
+    "S": "earth_on_minecraft:steel"
+  },
+  "result": {
+    "id": "earth_life_sciences:microscope",
+    "count": 1
+  }
+}

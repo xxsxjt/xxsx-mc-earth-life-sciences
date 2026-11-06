@@ -1,0 +1,12 @@
+build/
+.gradle/
+run/
+runs/
+**/build/
+**/.gradle/
+**/run/
+**/runs/
+**/gradle.properties
+.idea/
+*.iml
+

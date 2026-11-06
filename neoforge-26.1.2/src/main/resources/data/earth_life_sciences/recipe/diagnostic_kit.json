@@ -1,0 +1,16 @@
+{
+  "type": "earth_lore:gated",
+  "node": "earth_life_sciences:med/laboratory_medicine",
+  "recipe": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      "earth_life_sciences:stethoscope",
+      "earth_life_sciences:clinical_thermometer",
+      "earth_on_minecraft:medical_kit"
+    ],
+    "result": {
+      "id": "earth_life_sciences:diagnostic_kit",
+      "count": 1
+    }
+  }
+}

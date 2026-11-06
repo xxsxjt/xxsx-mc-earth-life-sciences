@@ -1,0 +1,319 @@
+{
+  "item.stethoscope.listen": {
+    "subtitle": "subtitles.earth_life_sciences.item.stethoscope.listen",
+    "sounds": [
+      {
+        "name": "minecraft:entity.warden.heartbeat",
+        "type": "event",
+        "volume": 0.5
+      }
+    ]
+  },
+  "block.iv_stand.drip": {
+    "subtitle": "subtitles.earth_life_sciences.block.iv_stand.drip",
+    "sounds": [
+      {
+        "name": "minecraft:block.pointed_dripstone.drip_water",
+        "type": "event",
+        "volume": 0.5
+      }
+    ]
+  },
+  "entity.villager.work_physician": {
+    "subtitle": "subtitles.earth_life_sciences.entity.villager.work_physician",
+    "sounds": [
+      {
+        "name": "minecraft:entity.villager.work_cleric",
+        "type": "event"
+      }
+    ]
+  },
+  "entity.villager.work_biologist": {
+    "subtitle": "subtitles.earth_life_sciences.entity.villager.work_biologist",
+    "sounds": [
+      {
+        "name": "minecraft:entity.villager.work_librarian",
+        "type": "event"
+      }
+    ]
+  },
+  "entity.villager.work_nurse": {
+    "subtitle": "subtitles.earth_life_sciences.entity.villager.work_nurse",
+    "sounds": [
+      {
+        "name": "minecraft:entity.villager.work_cleric",
+        "type": "event"
+      }
+    ]
+  },
+  "block.incubator.idle": {
+    "subtitle": "subtitles.earth_life_sciences.block.incubator.idle",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "block.incubator.running": {
+    "subtitle": "subtitles.earth_life_sciences.block.incubator.running",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "block.incubator.fault": {
+    "subtitle": "subtitles.earth_life_sciences.block.incubator.fault",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "block.fermenter.idle": {
+    "subtitle": "subtitles.earth_life_sciences.block.fermenter.idle",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "block.fermenter.running": {
+    "subtitle": "subtitles.earth_life_sciences.block.fermenter.running",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "block.fermenter.fault": {
+    "subtitle": "subtitles.earth_life_sciences.block.fermenter.fault",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "block.centrifuge.idle": {
+    "subtitle": "subtitles.earth_life_sciences.block.centrifuge.idle",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "block.centrifuge.running": {
+    "subtitle": "subtitles.earth_life_sciences.block.centrifuge.running",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "block.centrifuge.fault": {
+    "subtitle": "subtitles.earth_life_sciences.block.centrifuge.fault",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "block.gene_sequencer.idle": {
+    "subtitle": "subtitles.earth_life_sciences.block.gene_sequencer.idle",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "block.gene_sequencer.running": {
+    "subtitle": "subtitles.earth_life_sciences.block.gene_sequencer.running",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "block.gene_sequencer.fault": {
+    "subtitle": "subtitles.earth_life_sciences.block.gene_sequencer.fault",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "block.breeding_station.idle": {
+    "subtitle": "subtitles.earth_life_sciences.block.breeding_station.idle",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "block.breeding_station.running": {
+    "subtitle": "subtitles.earth_life_sciences.block.breeding_station.running",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "block.breeding_station.fault": {
+    "subtitle": "subtitles.earth_life_sciences.block.breeding_station.fault",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "block.pcr_cycler.idle": {
+    "subtitle": "subtitles.earth_life_sciences.block.pcr_cycler.idle",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "block.pcr_cycler.running": {
+    "subtitle": "subtitles.earth_life_sciences.block.pcr_cycler.running",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "block.pcr_cycler.fault": {
+    "subtitle": "subtitles.earth_life_sciences.block.pcr_cycler.fault",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "block.gene_editor.idle": {
+    "subtitle": "subtitles.earth_life_sciences.block.gene_editor.idle",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "block.gene_editor.running": {
+    "subtitle": "subtitles.earth_life_sciences.block.gene_editor.running",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "block.gene_editor.fault": {
+    "subtitle": "subtitles.earth_life_sciences.block.gene_editor.fault",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "block.xray_machine.idle": {
+    "subtitle": "subtitles.earth_life_sciences.block.xray_machine.idle",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "block.xray_machine.running": {
+    "subtitle": "subtitles.earth_life_sciences.block.xray_machine.running",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "block.xray_machine.fault": {
+    "subtitle": "subtitles.earth_life_sciences.block.xray_machine.fault",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "block.anesthesia_machine.idle": {
+    "subtitle": "subtitles.earth_life_sciences.block.anesthesia_machine.idle",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "block.anesthesia_machine.running": {
+    "subtitle": "subtitles.earth_life_sciences.block.anesthesia_machine.running",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  },
+  "block.anesthesia_machine.fault": {
+    "subtitle": "subtitles.earth_life_sciences.block.anesthesia_machine.fault",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "volume": 0.3
+      }
+    ]
+  }
+}

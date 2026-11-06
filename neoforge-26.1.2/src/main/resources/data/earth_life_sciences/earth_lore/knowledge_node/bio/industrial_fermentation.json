@@ -1,0 +1,50 @@
+{
+  "discipline": "earth_lore:bio",
+  "tier": 5,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_life_sciences:bio/microbiology"
+    },
+    {
+      "all": "earth_life_sciences:bio/biochemistry"
+    }
+  ],
+  "item_requires": [
+    {
+      "made": "earth_life_sciences:pure_culture"
+    }
+  ],
+  "unlocks": [
+    {
+      "block": "earth_life_sciences:fermenter"
+    },
+    {
+      "item": "earth_life_sciences:fermenter"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.bio.industrial_fermentation",
+  "desc_key": "lore.earth_life_sciences.bio.industrial_fermentation.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_life_sciences:pure_culture",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_on_minecraft:glucose",
+        "count": 8
+      },
+      {
+        "ingredient": "earth_on_minecraft:steel",
+        "count": 4
+      }
+    ],
+    "ticks": 6000
+  }
+}

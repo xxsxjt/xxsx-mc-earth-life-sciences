@@ -1,0 +1,64 @@
+{
+  "discipline": "earth_lore:med",
+  "tier": 9,
+  "gate": "cap",
+  "requires": [
+    {
+      "all": "earth_life_sciences:med/laboratory_medicine"
+    },
+    {
+      "all": "earth_life_sciences:med/broad_spectrum_antibiotics"
+    },
+    {
+      "all": "earth_life_sciences:med/antivirals_antifungals"
+    },
+    {
+      "all": "earth_life_sciences:med/controlled_analgesics"
+    },
+    {
+      "all": "earth_life_sciences:med/surgery"
+    },
+    {
+      "all": "earth_life_sciences:med/psychiatry"
+    },
+    {
+      "all": "earth_life_sciences:med/oncology"
+    },
+    {
+      "all": "earth_life_sciences:med/iv_therapy"
+    },
+    {
+      "all": "earth_life_sciences:med/radiology"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "capstone": "MED"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_life_sciences:patient_chart",
+        "count": 8
+      },
+      {
+        "ingredient": "earth_life_sciences:surgical_kit",
+        "count": 1
+      },
+      {
+        "ingredient": "earth_life_sciences:penicillin",
+        "count": 4
+      }
+    ],
+    "ticks": 12000
+  },
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.med.medical_mastery",
+  "desc_key": "lore.earth_life_sciences.med.medical_mastery.desc"
+}

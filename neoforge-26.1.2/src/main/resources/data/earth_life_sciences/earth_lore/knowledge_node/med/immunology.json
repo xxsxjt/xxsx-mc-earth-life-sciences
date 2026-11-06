@@ -1,0 +1,42 @@
+{
+  "discipline": "earth_lore:med",
+  "tier": 7,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_on_minecraft:med/serum_therapy"
+    },
+    {
+      "all": "earth_life_sciences:med/epidemiology"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "item": "earth_life_sciences:attenuated_vaccine"
+    },
+    {
+      "item": "earth_life_sciences:immunosuppressant"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_life_sciences:pure_culture",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_on_minecraft:syringe",
+        "count": 2
+      }
+    ],
+    "ticks": 7200
+  },
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.med.immunology",
+  "desc_key": "lore.earth_life_sciences.med.immunology.desc"
+}

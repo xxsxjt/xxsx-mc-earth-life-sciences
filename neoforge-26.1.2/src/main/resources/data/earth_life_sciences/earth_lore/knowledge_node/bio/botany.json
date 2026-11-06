@@ -1,0 +1,41 @@
+{
+  "discipline": "earth_lore:bio",
+  "tier": 2,
+  "gate": "theory",
+  "requires": [
+    {
+      "all": "earth_life_sciences:bio/natural_history"
+    },
+    {
+      "all": "earth_on_minecraft:agr/tillage"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "readout": "earth_life_sciences:herbarium_press"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [
+    "earth_life_sciences:biologist"
+  ],
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.bio.botany",
+  "desc_key": "lore.earth_life_sciences.bio.botany.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_life_sciences:dried_specimen",
+        "count": 8
+      },
+      {
+        "ingredient": "minecraft:bone_meal",
+        "count": 4
+      }
+    ],
+    "ticks": 1200
+  }
+}

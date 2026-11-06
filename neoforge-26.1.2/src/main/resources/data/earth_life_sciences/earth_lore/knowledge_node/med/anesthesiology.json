@@ -1,0 +1,54 @@
+{
+  "discipline": "earth_lore:med",
+  "tier": 5,
+  "gate": "hard",
+  "requires": [
+    {
+      "all": "earth_on_minecraft:med/anesthesia_basics"
+    },
+    {
+      "all": "earth_life_sciences:med/physiology"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "block": "earth_life_sciences:anesthesia_machine"
+    },
+    {
+      "item": "earth_life_sciences:anesthesia_machine"
+    },
+    {
+      "recipe": "earth_life_sciences:anesthesia_machine"
+    },
+    {
+      "item": "earth_life_sciences:lidocaine"
+    },
+    {
+      "item": "earth_life_sciences:naloxone"
+    },
+    {
+      "item": "earth_life_sciences:muscle_relaxant"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_on_minecraft:diethyl_ether",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_on_minecraft:nitrous_oxide",
+        "count": 2
+      }
+    ],
+    "ticks": 6000
+  },
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.med.anesthesiology",
+  "desc_key": "lore.earth_life_sciences.med.anesthesiology.desc"
+}

@@ -1,0 +1,45 @@
+{
+  "discipline": "earth_lore:med",
+  "tier": 7,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_life_sciences:med/internal_medicine"
+    },
+    {
+      "all": "earth_life_sciences:bio/biochemistry"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "item": "earth_life_sciences:insulin"
+    },
+    {
+      "item": "earth_life_sciences:thyroxine"
+    },
+    {
+      "item": "earth_life_sciences:corticosteroid"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_life_sciences:tissue_sample",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_life_sciences:patient_chart",
+        "count": 2
+      }
+    ],
+    "ticks": 9600
+  },
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.med.endocrinology",
+  "desc_key": "lore.earth_life_sciences.med.endocrinology.desc"
+}

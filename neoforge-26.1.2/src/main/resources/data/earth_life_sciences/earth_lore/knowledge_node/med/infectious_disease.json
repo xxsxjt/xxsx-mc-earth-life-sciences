@@ -1,0 +1,39 @@
+{
+  "discipline": "earth_lore:med",
+  "tier": 5,
+  "gate": "theory",
+  "requires": [
+    {
+      "all": "earth_life_sciences:med/diagnostics"
+    },
+    {
+      "all": "earth_life_sciences:bio/microbiology"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "readout": "earth_life_sciences:patient_chart"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_life_sciences:microbe_sample",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_life_sciences:patient_chart",
+        "count": 1
+      }
+    ],
+    "ticks": 6000
+  },
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.med.infectious_disease",
+  "desc_key": "lore.earth_life_sciences.med.infectious_disease.desc"
+}

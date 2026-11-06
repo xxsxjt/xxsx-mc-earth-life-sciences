@@ -1,0 +1,56 @@
+{
+  "discipline": "earth_lore:med",
+  "tier": 6,
+  "gate": "hard",
+  "requires": [
+    {
+      "all": "earth_on_minecraft:med/wound_care"
+    },
+    {
+      "all": "earth_life_sciences:med/anatomy"
+    },
+    {
+      "all": "earth_life_sciences:med/anesthesiology"
+    }
+  ],
+  "item_requires": [
+    {
+      "made": "earth_on_minecraft:scalpel"
+    }
+  ],
+  "unlocks": [
+    {
+      "item": "earth_life_sciences:surgical_kit"
+    },
+    {
+      "recipe": "earth_life_sciences:surgical_kit"
+    },
+    {
+      "ability": "earth_life_sciences:surgery"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_on_minecraft:suture_thread",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_on_minecraft:scalpel",
+        "count": 1
+      },
+      {
+        "ingredient": "earth_on_minecraft:forceps",
+        "count": 1
+      }
+    ],
+    "ticks": 7200
+  },
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.med.surgery",
+  "desc_key": "lore.earth_life_sciences.med.surgery.desc"
+}

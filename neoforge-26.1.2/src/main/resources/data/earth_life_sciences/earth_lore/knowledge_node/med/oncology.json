@@ -1,0 +1,45 @@
+{
+  "discipline": "earth_lore:med",
+  "tier": 8,
+  "gate": "hard",
+  "requires": [
+    {
+      "all": "earth_life_sciences:med/immunology"
+    },
+    {
+      "all": "earth_life_sciences:med/endocrinology"
+    },
+    {
+      "any": [
+        "earth_physical_sciences:phy/nuclear_physics",
+        "earth_life_sciences:med/radiology"
+      ]
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "item": "earth_life_sciences:chemotherapy_agent"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_life_sciences:tissue_sample",
+        "count": 8
+      },
+      {
+        "ingredient": "earth_life_sciences:pure_culture",
+        "count": 2
+      }
+    ],
+    "ticks": 12000
+  },
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.med.oncology",
+  "desc_key": "lore.earth_life_sciences.med.oncology.desc"
+}

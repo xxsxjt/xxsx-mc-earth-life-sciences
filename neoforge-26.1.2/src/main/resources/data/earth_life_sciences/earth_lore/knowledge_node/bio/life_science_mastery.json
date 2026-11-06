@@ -1,0 +1,46 @@
+{
+  "discipline": "earth_lore:bio",
+  "tier": 10,
+  "gate": "cap",
+  "requires": [
+    {
+      "all": "earth_life_sciences:bio/ecology"
+    },
+    {
+      "all": "earth_life_sciences:bio/industrial_fermentation"
+    },
+    {
+      "all": "earth_life_sciences:bio/genetic_engineering"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "capstone": "BIO"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.bio.life_science_mastery",
+  "desc_key": "lore.earth_life_sciences.bio.life_science_mastery.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_life_sciences:pure_culture",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_life_sciences:dried_specimen",
+        "count": 16
+      },
+      {
+        "ingredient": "earth_on_minecraft:optical_glass",
+        "count": 2
+      }
+    ],
+    "ticks": 12000
+  }
+}

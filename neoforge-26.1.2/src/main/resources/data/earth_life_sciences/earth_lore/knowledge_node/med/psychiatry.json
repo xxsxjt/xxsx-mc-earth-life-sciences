@@ -1,0 +1,39 @@
+{
+  "discipline": "earth_lore:med",
+  "tier": 7,
+  "gate": "hard",
+  "requires": [
+    {
+      "all": "earth_life_sciences:med/internal_medicine"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "item": "earth_life_sciences:antidepressant"
+    },
+    {
+      "item": "earth_life_sciences:antipsychotic"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_life_sciences:patient_chart",
+        "count": 8
+      },
+      {
+        "ingredient": "minecraft:book",
+        "count": 2
+      }
+    ],
+    "ticks": 9600
+  },
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.med.psychiatry",
+  "desc_key": "lore.earth_life_sciences.med.psychiatry.desc"
+}

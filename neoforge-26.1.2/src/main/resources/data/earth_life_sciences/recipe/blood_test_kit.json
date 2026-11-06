@@ -1,0 +1,17 @@
+{
+  "type": "earth_lore:gated",
+  "node": "earth_life_sciences:med/laboratory_medicine",
+  "recipe": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      "earth_on_minecraft:syringe",
+      "earth_life_sciences:slide_kit",
+      "earth_life_sciences:slide_kit",
+      "earth_life_sciences:petri_dish"
+    ],
+    "result": {
+      "id": "earth_life_sciences:blood_test_kit",
+      "count": 4
+    }
+  }
+}

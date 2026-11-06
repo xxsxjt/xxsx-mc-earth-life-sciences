@@ -1,0 +1,22 @@
+{
+  "type": "earth_lore:gated",
+  "node": "earth_life_sciences:med/anesthesiology",
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "GCG",
+      "SBS",
+      "SSS"
+    ],
+    "key": {
+      "G": "minecraft:glass",
+      "C": "earth_on_minecraft:copper_power_cable",
+      "B": "minecraft:bucket",
+      "S": "earth_on_minecraft:steel"
+    },
+    "result": {
+      "id": "earth_life_sciences:anesthesia_machine",
+      "count": 1
+    }
+  }
+}

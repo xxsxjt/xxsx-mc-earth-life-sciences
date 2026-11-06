@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:glass",
+    "earth_on_minecraft:ethanol"
+  ],
+  "result": {
+    "id": "earth_life_sciences:clinical_thermometer",
+    "count": 1
+  }
+}

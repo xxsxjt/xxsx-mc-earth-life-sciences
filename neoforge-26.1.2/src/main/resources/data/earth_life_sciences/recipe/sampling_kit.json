@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "earth_on_minecraft:cotton_cloth",
+    "earth_on_minecraft:cotton_cloth",
+    "minecraft:stick",
+    "minecraft:glass_bottle"
+  ],
+  "result": {
+    "id": "earth_life_sciences:sampling_kit",
+    "count": 1
+  }
+}

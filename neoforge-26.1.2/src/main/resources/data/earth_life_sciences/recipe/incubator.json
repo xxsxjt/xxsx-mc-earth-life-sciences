@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SGS",
+    "GWG",
+    "SCS"
+  ],
+  "key": {
+    "S": "earth_on_minecraft:steel",
+    "G": "minecraft:glass_pane",
+    "W": "minecraft:white_wool",
+    "C": "earth_on_minecraft:copper_power_cable"
+  },
+  "result": {
+    "id": "earth_life_sciences:incubator",
+    "count": 1
+  }
+}

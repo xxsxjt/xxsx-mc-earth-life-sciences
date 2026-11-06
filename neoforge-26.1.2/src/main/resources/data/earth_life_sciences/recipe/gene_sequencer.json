@@ -1,0 +1,23 @@
+{
+  "type": "earth_lore:gated",
+  "node": "earth_life_sciences:bio/genomics",
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "GMG",
+      "CPC",
+      "SSS"
+    ],
+    "key": {
+      "G": "earth_on_minecraft:optical_glass",
+      "M": "earth_life_sciences:microscope",
+      "C": "earth_on_minecraft:copper_power_cable",
+      "P": "earth_on_minecraft:plc_controller",
+      "S": "earth_on_minecraft:steel"
+    },
+    "result": {
+      "id": "earth_life_sciences:gene_sequencer",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "discipline": "earth_lore:bio",
+  "tier": 5,
+  "gate": "hard",
+  "requires": [
+    {
+      "all": "earth_life_sciences:bio/genetics"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "block": "earth_life_sciences:breeding_station"
+    },
+    {
+      "item": "earth_life_sciences:breeding_station"
+    },
+    {
+      "recipe": "earth_life_sciences:breeding_station"
+    },
+    {
+      "block": "earth_life_sciences:seed_bank"
+    },
+    {
+      "item": "earth_life_sciences:seed_bank"
+    },
+    {
+      "recipe": "earth_life_sciences:seed_bank"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.bio.plant_breeding",
+  "desc_key": "lore.earth_life_sciences.bio.plant_breeding.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "minecraft:wheat_seeds",
+        "count": 32
+      },
+      {
+        "ingredient": "minecraft:bone_meal",
+        "count": 8
+      },
+      {
+        "ingredient": "earth_life_sciences:dried_specimen",
+        "count": 4
+      }
+    ],
+    "ticks": 6000
+  }
+}

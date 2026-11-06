@@ -1,0 +1,36 @@
+{
+  "discipline": "earth_lore:bio",
+  "tier": 6,
+  "gate": "theory",
+  "requires": [
+    {
+      "all": "earth_life_sciences:bio/molecular_biology"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.bio.manual_sequencing",
+  "desc_key": "lore.earth_life_sciences.bio.manual_sequencing.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_life_sciences:slide_kit",
+        "count": 32
+      },
+      {
+        "ingredient": "earth_life_sciences:tissue_sample",
+        "count": 8
+      },
+      {
+        "ingredient": "minecraft:paper",
+        "count": 16
+      }
+    ],
+    "ticks": 12000
+  }
+}

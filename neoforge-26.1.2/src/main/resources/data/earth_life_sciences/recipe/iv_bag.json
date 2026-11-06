@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "minecraft:leather"
+  ],
+  "result": {
+    "id": "earth_life_sciences:iv_bag",
+    "count": 2
+  }
+}

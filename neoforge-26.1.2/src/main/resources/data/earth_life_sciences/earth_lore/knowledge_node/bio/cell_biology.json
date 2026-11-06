@@ -1,0 +1,40 @@
+{
+  "discipline": "earth_lore:bio",
+  "tier": 3,
+  "gate": "theory",
+  "requires": [
+    {
+      "all": "earth_life_sciences:bio/microscopy"
+    }
+  ],
+  "item_requires": [
+    {
+      "held": "earth_life_sciences:microscope"
+    }
+  ],
+  "unlocks": [
+    {
+      "readout": "earth_life_sciences:microscope"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.bio.cell_biology",
+  "desc_key": "lore.earth_life_sciences.bio.cell_biology.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_life_sciences:slide_kit",
+        "count": 8
+      },
+      {
+        "ingredient": "earth_life_sciences:tissue_sample",
+        "count": 2
+      }
+    ],
+    "ticks": 2400
+  }
+}

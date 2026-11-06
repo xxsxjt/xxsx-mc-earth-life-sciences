@@ -1,0 +1,45 @@
+{
+  "discipline": "earth_lore:bio",
+  "tier": 2,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_life_sciences:bio/natural_history"
+    }
+  ],
+  "item_requires": [
+    {
+      "made": "earth_on_minecraft:optical_glass"
+    }
+  ],
+  "unlocks": [
+    {
+      "item": "earth_life_sciences:microscope"
+    },
+    {
+      "item": "earth_life_sciences:slide_kit"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [
+    "earth_life_sciences:biologist"
+  ],
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.bio.microscopy",
+  "desc_key": "lore.earth_life_sciences.bio.microscopy.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_on_minecraft:optical_glass",
+        "count": 2
+      },
+      {
+        "ingredient": "minecraft:glass_pane",
+        "count": 4
+      }
+    ],
+    "ticks": 1200
+  }
+}

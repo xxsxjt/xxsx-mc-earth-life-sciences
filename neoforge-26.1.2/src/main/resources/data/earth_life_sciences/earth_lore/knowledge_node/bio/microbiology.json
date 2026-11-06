@@ -1,0 +1,56 @@
+{
+  "discipline": "earth_lore:bio",
+  "tier": 4,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_life_sciences:bio/cell_biology"
+    }
+  ],
+  "item_requires": [
+    {
+      "held": "earth_life_sciences:microscope"
+    }
+  ],
+  "unlocks": [
+    {
+      "item": "earth_life_sciences:petri_dish"
+    },
+    {
+      "item": "earth_life_sciences:culture_medium"
+    },
+    {
+      "block": "earth_life_sciences:incubator"
+    },
+    {
+      "item": "earth_life_sciences:incubator"
+    },
+    {
+      "item": "earth_life_sciences:pure_culture"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.bio.microbiology",
+  "desc_key": "lore.earth_life_sciences.bio.microbiology.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_life_sciences:microbe_sample",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_life_sciences:slide_kit",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_on_minecraft:kelp",
+        "count": 4
+      }
+    ],
+    "ticks": 4800
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SGS",
+    "S S",
+    "SCS"
+  ],
+  "key": {
+    "S": "earth_on_minecraft:steel",
+    "G": "minecraft:glass",
+    "C": "earth_on_minecraft:copper_power_cable"
+  },
+  "result": {
+    "id": "earth_life_sciences:fermenter",
+    "count": 1
+  }
+}

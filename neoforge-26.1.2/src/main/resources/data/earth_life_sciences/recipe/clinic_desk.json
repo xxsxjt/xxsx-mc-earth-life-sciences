@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PCP",
+    "WWW",
+    "W W"
+  ],
+  "key": {
+    "P": "minecraft:paper",
+    "C": "earth_on_minecraft:medical_kit",
+    "W": "minecraft:oak_planks"
+  },
+  "result": {
+    "id": "earth_life_sciences:clinic_desk",
+    "count": 1
+  }
+}

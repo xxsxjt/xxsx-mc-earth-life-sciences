@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "CGC",
+    "LSL"
+  ],
+  "key": {
+    "L": "earth_on_minecraft:lead",
+    "C": "earth_on_minecraft:copper_power_cable",
+    "G": "minecraft:glass",
+    "S": "earth_on_minecraft:steel"
+  },
+  "result": {
+    "id": "earth_life_sciences:xray_machine",
+    "count": 1
+  }
+}

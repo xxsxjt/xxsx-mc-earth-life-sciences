@@ -1,0 +1,22 @@
+{
+  "type": "earth_lore:gated",
+  "node": "earth_life_sciences:bio/plant_breeding",
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "GGG",
+      "DFD",
+      "PPP"
+    ],
+    "key": {
+      "G": "minecraft:glass_pane",
+      "D": "minecraft:dirt",
+      "F": "minecraft:flower_pot",
+      "P": "minecraft:oak_planks"
+    },
+    "result": {
+      "id": "earth_life_sciences:breeding_station",
+      "count": 1
+    }
+  }
+}

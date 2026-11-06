@@ -1,0 +1,41 @@
+{
+  "discipline": "earth_lore:bio",
+  "tier": 2,
+  "gate": "theory",
+  "requires": [
+    {
+      "all": "earth_life_sciences:bio/natural_history"
+    },
+    {
+      "all": "earth_on_minecraft:agr/husbandry"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "readout": "earth_life_sciences:specimen_jar"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [
+    "earth_life_sciences:biologist"
+  ],
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.bio.zoology",
+  "desc_key": "lore.earth_life_sciences.bio.zoology.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_life_sciences:tissue_sample",
+        "count": 4
+      },
+      {
+        "ingredient": "minecraft:leather",
+        "count": 2
+      }
+    ],
+    "ticks": 1200
+  }
+}

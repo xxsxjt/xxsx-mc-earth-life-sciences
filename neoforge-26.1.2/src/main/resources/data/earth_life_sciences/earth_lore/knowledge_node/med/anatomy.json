@@ -1,0 +1,34 @@
+{
+  "discipline": "earth_lore:med",
+  "tier": 1,
+  "gate": "theory",
+  "requires": [
+    {
+      "all": "earth_on_minecraft:med/medicine_basics"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [
+    "earth_life_sciences:physician"
+  ],
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_life_sciences:tissue_sample",
+        "count": 4
+      },
+      {
+        "ingredient": "minecraft:paper",
+        "count": 4
+      }
+    ],
+    "ticks": 600
+  },
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.med.anatomy",
+  "desc_key": "lore.earth_life_sciences.med.anatomy.desc"
+}

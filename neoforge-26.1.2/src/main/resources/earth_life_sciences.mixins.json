@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.xxsx.earthlifesciences.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "LifeVillagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

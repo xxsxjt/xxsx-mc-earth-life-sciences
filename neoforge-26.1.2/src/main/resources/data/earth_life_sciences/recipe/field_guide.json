@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:book",
+    "minecraft:feather"
+  ],
+  "result": {
+    "id": "earth_life_sciences:field_guide",
+    "count": 1
+  }
+}

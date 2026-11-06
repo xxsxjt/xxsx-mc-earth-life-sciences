@@ -1,0 +1,35 @@
+{
+  "discipline": "earth_lore:bio",
+  "tier": 0,
+  "gate": "root",
+  "requires": [],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "item": "earth_life_sciences:specimen_jar"
+    },
+    {
+      "item": "earth_life_sciences:field_guide"
+    },
+    {
+      "item": "earth_life_sciences:sampling_kit"
+    },
+    {
+      "item": "earth_life_sciences:microbe_sample"
+    },
+    {
+      "item": "earth_life_sciences:herbarium_press"
+    },
+    {
+      "item": "earth_life_sciences:dried_specimen"
+    },
+    {
+      "item": "earth_life_sciences:tissue_sample"
+    }
+  ],
+  "literature": [],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.bio.biology_basics",
+  "desc_key": "lore.earth_life_sciences.bio.biology_basics.desc"
+}

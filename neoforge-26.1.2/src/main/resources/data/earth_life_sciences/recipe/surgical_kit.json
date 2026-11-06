@@ -1,0 +1,20 @@
+{
+  "type": "earth_lore:gated",
+  "node": "earth_life_sciences:med/surgery",
+  "recipe": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      "earth_on_minecraft:scalpel",
+      "earth_on_minecraft:forceps",
+      "earth_on_minecraft:suture_thread",
+      "earth_on_minecraft:suture_thread",
+      "earth_on_minecraft:suture_thread",
+      "earth_on_minecraft:suture_thread",
+      "minecraft:leather"
+    ],
+    "result": {
+      "id": "earth_life_sciences:surgical_kit",
+      "count": 1
+    }
+  }
+}

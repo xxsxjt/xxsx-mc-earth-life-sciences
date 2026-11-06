@@ -1,0 +1,42 @@
+{
+  "discipline": "earth_lore:med",
+  "tier": 6,
+  "gate": "hard",
+  "requires": [
+    {
+      "all": "earth_life_sciences:med/anesthesiology"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "item": "earth_life_sciences:morphine"
+    },
+    {
+      "item": "earth_life_sciences:codeine"
+    },
+    {
+      "item": "earth_life_sciences:fentanyl"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_on_minecraft:aspirin",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_life_sciences:patient_chart",
+        "count": 2
+      }
+    ],
+    "ticks": 7200
+  },
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.med.controlled_analgesics",
+  "desc_key": "lore.earth_life_sciences.med.controlled_analgesics.desc"
+}

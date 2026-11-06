@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "S S",
+    " I "
+  ],
+  "key": {
+    "S": "minecraft:slime_ball",
+    "I": "earth_on_minecraft:steel"
+  },
+  "result": {
+    "id": "earth_life_sciences:stethoscope",
+    "count": 1
+  }
+}

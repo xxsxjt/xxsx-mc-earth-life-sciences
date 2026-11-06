@@ -1,0 +1,42 @@
+{
+  "discipline": "earth_lore:bio",
+  "tier": 4,
+  "gate": "theory",
+  "requires": [
+    {
+      "all": "earth_life_sciences:bio/cell_biology"
+    },
+    {
+      "all": "earth_life_sciences:bio/botany"
+    },
+    {
+      "all": "earth_on_minecraft:agr/seed_selection"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "readout": "earth_life_sciences:seed_bank"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.bio.genetics",
+  "desc_key": "lore.earth_life_sciences.bio.genetics.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "minecraft:wheat_seeds",
+        "count": 16
+      },
+      {
+        "ingredient": "earth_life_sciences:dried_specimen",
+        "count": 4
+      }
+    ],
+    "ticks": 4800
+  }
+}

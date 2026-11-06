@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SRS",
+    "RPR",
+    "SRS"
+  ],
+  "key": {
+    "S": "earth_on_minecraft:steel",
+    "R": "minecraft:redstone",
+    "P": "minecraft:piston"
+  },
+  "result": {
+    "id": "earth_life_sciences:centrifuge",
+    "count": 1
+  }
+}

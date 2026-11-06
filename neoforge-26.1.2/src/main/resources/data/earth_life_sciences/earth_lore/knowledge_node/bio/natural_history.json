@@ -1,0 +1,43 @@
+{
+  "discipline": "earth_lore:bio",
+  "tier": 1,
+  "gate": "theory",
+  "requires": [
+    {
+      "all": "earth_life_sciences:bio/biology_basics"
+    }
+  ],
+  "item_requires": [
+    {
+      "held": "earth_life_sciences:field_guide"
+    }
+  ],
+  "unlocks": [
+    {
+      "readout": "earth_life_sciences:field_guide"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [
+    "earth_life_sciences:biologist",
+    "minecraft:librarian"
+  ],
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.bio.natural_history",
+  "desc_key": "lore.earth_life_sciences.bio.natural_history.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_life_sciences:dried_specimen",
+        "count": 4
+      },
+      {
+        "ingredient": "minecraft:paper",
+        "count": 2
+      }
+    ],
+    "ticks": 600
+  }
+}

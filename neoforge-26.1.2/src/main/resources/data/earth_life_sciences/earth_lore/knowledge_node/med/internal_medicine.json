@@ -1,0 +1,54 @@
+{
+  "discipline": "earth_lore:med",
+  "tier": 6,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_on_minecraft:med/advanced_pharmacy"
+    },
+    {
+      "all": "earth_life_sciences:med/infectious_disease"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "item": "earth_life_sciences:antihypertensive"
+    },
+    {
+      "item": "earth_life_sciences:antidiabetic"
+    },
+    {
+      "item": "earth_life_sciences:statin"
+    },
+    {
+      "item": "earth_life_sciences:anticoagulant"
+    },
+    {
+      "item": "earth_life_sciences:bronchodilator"
+    },
+    {
+      "item": "earth_life_sciences:anticonvulsant"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_life_sciences:patient_chart",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_on_minecraft:glucose",
+        "count": 4
+      }
+    ],
+    "ticks": 7200
+  },
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.med.internal_medicine",
+  "desc_key": "lore.earth_life_sciences.med.internal_medicine.desc"
+}

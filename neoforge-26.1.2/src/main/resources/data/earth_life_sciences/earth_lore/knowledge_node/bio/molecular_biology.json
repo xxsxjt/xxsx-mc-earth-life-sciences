@@ -1,0 +1,39 @@
+{
+  "discipline": "earth_lore:bio",
+  "tier": 5,
+  "gate": "theory",
+  "requires": [
+    {
+      "all": "earth_life_sciences:bio/genetics"
+    },
+    {
+      "all": "earth_life_sciences:bio/biochemistry"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.bio.molecular_biology",
+  "desc_key": "lore.earth_life_sciences.bio.molecular_biology.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_life_sciences:tissue_sample",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_on_minecraft:ethanol",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_on_minecraft:sodium_bicarbonate",
+        "count": 2
+      }
+    ],
+    "ticks": 6000
+  }
+}

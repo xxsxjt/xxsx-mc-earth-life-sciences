@@ -1,0 +1,50 @@
+{
+  "discipline": "earth_lore:med",
+  "tier": 6,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_on_minecraft:med/sulfa_drugs"
+    },
+    {
+      "all": "earth_life_sciences:med/infectious_disease"
+    },
+    {
+      "all": "earth_on_minecraft:che/organic_chemistry"
+    }
+  ],
+  "item_requires": [
+    {
+      "held": "earth_life_sciences:fermenter"
+    }
+  ],
+  "unlocks": [
+    {
+      "item": "earth_life_sciences:penicillin"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_life_sciences:pure_culture",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_on_minecraft:glucose",
+        "count": 8
+      },
+      {
+        "ingredient": "minecraft:glass_bottle",
+        "count": 4
+      }
+    ],
+    "ticks": 7200
+  },
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.med.antibiotics",
+  "desc_key": "lore.earth_life_sciences.med.antibiotics.desc"
+}

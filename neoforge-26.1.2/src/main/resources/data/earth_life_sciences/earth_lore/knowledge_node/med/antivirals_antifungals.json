@@ -1,0 +1,42 @@
+{
+  "discipline": "earth_lore:med",
+  "tier": 7,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_life_sciences:med/antibiotics"
+    },
+    {
+      "all": "earth_life_sciences:bio/molecular_biology"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "item": "earth_life_sciences:antifungal_agent"
+    },
+    {
+      "item": "earth_life_sciences:antiviral_agent"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_life_sciences:pure_culture",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_life_sciences:tissue_sample",
+        "count": 4
+      }
+    ],
+    "ticks": 9600
+  },
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.med.antivirals_antifungals",
+  "desc_key": "lore.earth_life_sciences.med.antivirals_antifungals.desc"
+}

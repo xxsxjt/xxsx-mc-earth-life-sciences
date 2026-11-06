@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PSP",
+    "P P",
+    "PSP"
+  ],
+  "key": {
+    "P": "minecraft:oak_planks",
+    "S": "minecraft:string"
+  },
+  "result": {
+    "id": "earth_life_sciences:herbarium_press",
+    "count": 1
+  }
+}

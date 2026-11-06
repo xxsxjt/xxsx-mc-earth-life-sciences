@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "earth_life_sciences:item/slide_kit"
+  }
+}

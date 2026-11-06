@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "earth_on_minecraft:kelp",
+    "earth_on_minecraft:kelp",
+    "earth_on_minecraft:glucose",
+    "minecraft:water_bucket"
+  ],
+  "result": {
+    "id": "earth_life_sciences:culture_medium",
+    "count": 4
+  }
+}

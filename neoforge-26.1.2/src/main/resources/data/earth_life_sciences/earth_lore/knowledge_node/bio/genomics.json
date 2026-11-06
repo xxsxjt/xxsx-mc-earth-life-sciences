@@ -1,0 +1,60 @@
+{
+  "discipline": "earth_lore:bio",
+  "tier": 8,
+  "gate": "hard",
+  "requires": [
+    {
+      "all": "earth_life_sciences:bio/molecular_biology"
+    },
+    {
+      "any": [
+        "earth_physical_sciences:cmp/digital_computing",
+        "earth_life_sciences:bio/manual_sequencing"
+      ]
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "block": "earth_life_sciences:gene_sequencer"
+    },
+    {
+      "item": "earth_life_sciences:gene_sequencer"
+    },
+    {
+      "recipe": "earth_life_sciences:gene_sequencer"
+    },
+    {
+      "block": "earth_life_sciences:pcr_cycler"
+    },
+    {
+      "item": "earth_life_sciences:pcr_cycler"
+    },
+    {
+      "recipe": "earth_life_sciences:pcr_cycler"
+    },
+    {
+      "item": "earth_life_sciences:dna_template"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.bio.genomics",
+  "desc_key": "lore.earth_life_sciences.bio.genomics.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_life_sciences:tissue_sample",
+        "count": 8
+      },
+      {
+        "ingredient": "earth_life_sciences:pure_culture",
+        "count": 2
+      }
+    ],
+    "ticks": 7200
+  }
+}

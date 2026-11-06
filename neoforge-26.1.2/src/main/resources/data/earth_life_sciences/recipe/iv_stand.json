@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " H ",
+    " S ",
+    "SSS"
+  ],
+  "key": {
+    "H": "minecraft:tripwire_hook",
+    "S": "earth_on_minecraft:steel"
+  },
+  "result": {
+    "id": "earth_life_sciences:iv_stand",
+    "count": 1
+  }
+}

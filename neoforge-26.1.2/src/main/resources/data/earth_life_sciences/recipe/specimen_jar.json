@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "earth_on_minecraft:ethanol"
+  ],
+  "result": {
+    "id": "earth_life_sciences:specimen_jar",
+    "count": 1
+  }
+}

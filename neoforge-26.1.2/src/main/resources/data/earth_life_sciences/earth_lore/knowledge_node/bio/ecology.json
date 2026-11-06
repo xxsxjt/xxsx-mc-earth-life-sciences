@@ -1,0 +1,48 @@
+{
+  "discipline": "earth_lore:bio",
+  "tier": 3,
+  "gate": "hard",
+  "requires": [
+    {
+      "all": "earth_life_sciences:bio/botany"
+    },
+    {
+      "all": "earth_life_sciences:bio/zoology"
+    }
+  ],
+  "item_requires": [
+    {
+      "cond": "sky"
+    }
+  ],
+  "unlocks": [
+    {
+      "item": "earth_life_sciences:ecology_survey_kit"
+    },
+    {
+      "recipe": "earth_life_sciences:ecology_survey_kit"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [
+    "sky_blocked"
+  ],
+  "name_key": "lore.earth_life_sciences.bio.ecology",
+  "desc_key": "lore.earth_life_sciences.bio.ecology.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_life_sciences:dried_specimen",
+        "count": 8
+      },
+      {
+        "ingredient": "earth_life_sciences:specimen_jar",
+        "count": 4
+      }
+    ],
+    "ticks": 2400
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "earth_lore:gated",
+  "node": "earth_life_sciences:bio/genetic_engineering",
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "GOG",
+      "PSP",
+      "SCS"
+    ],
+    "key": {
+      "G": "earth_life_sciences:gene_sequencer",
+      "O": "earth_on_minecraft:optical_glass",
+      "P": "earth_life_sciences:pcr_cycler",
+      "S": "earth_on_minecraft:steel",
+      "C": "earth_on_minecraft:plc_controller"
+    },
+    "result": {
+      "id": "earth_life_sciences:gene_editor",
+      "count": 1
+    }
+  }
+}

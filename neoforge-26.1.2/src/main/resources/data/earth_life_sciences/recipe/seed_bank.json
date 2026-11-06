@@ -1,0 +1,21 @@
+{
+  "type": "earth_lore:gated",
+  "node": "earth_life_sciences:bio/plant_breeding",
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SIS",
+      "ICI",
+      "SIS"
+    ],
+    "key": {
+      "S": "earth_on_minecraft:steel",
+      "I": "minecraft:ice",
+      "C": "minecraft:chest"
+    },
+    "result": {
+      "id": "earth_life_sciences:seed_bank",
+      "count": 1
+    }
+  }
+}

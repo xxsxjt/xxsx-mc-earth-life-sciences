@@ -1,0 +1,48 @@
+{
+  "discipline": "earth_lore:med",
+  "tier": 7,
+  "gate": "soft",
+  "requires": [
+    {
+      "all": "earth_life_sciences:med/diagnostics"
+    },
+    {
+      "any": [
+        "earth_physical_sciences:phy/xray_physics",
+        "earth_life_sciences:med/radiography_self_taught"
+      ]
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "block": "earth_life_sciences:xray_machine"
+    },
+    {
+      "item": "earth_life_sciences:xray_machine"
+    },
+    {
+      "readout": "earth_life_sciences:xray_machine"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_life_sciences:patient_chart",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_on_minecraft:lead",
+        "count": 8
+      }
+    ],
+    "ticks": 9600
+  },
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.med.radiology",
+  "desc_key": "lore.earth_life_sciences.med.radiology.desc"
+}

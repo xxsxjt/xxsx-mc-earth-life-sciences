@@ -1,0 +1,22 @@
+{
+  "type": "earth_lore:gated",
+  "node": "earth_life_sciences:bio/genomics",
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SCS",
+      "RHR",
+      "SSS"
+    ],
+    "key": {
+      "S": "earth_on_minecraft:steel",
+      "C": "earth_on_minecraft:copper_power_cable",
+      "R": "minecraft:redstone",
+      "H": "minecraft:heavy_weighted_pressure_plate"
+    },
+    "result": {
+      "id": "earth_life_sciences:pcr_cycler",
+      "count": 1
+    }
+  }
+}

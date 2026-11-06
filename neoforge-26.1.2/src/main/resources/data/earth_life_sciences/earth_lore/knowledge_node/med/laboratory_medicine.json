@@ -1,0 +1,56 @@
+{
+  "discipline": "earth_lore:med",
+  "tier": 5,
+  "gate": "hard",
+  "requires": [
+    {
+      "all": "earth_life_sciences:med/diagnostics"
+    },
+    {
+      "all": "earth_life_sciences:bio/microbiology"
+    }
+  ],
+  "item_requires": [
+    {
+      "held": "earth_life_sciences:microscope"
+    }
+  ],
+  "unlocks": [
+    {
+      "item": "earth_life_sciences:diagnostic_kit"
+    },
+    {
+      "recipe": "earth_life_sciences:diagnostic_kit"
+    },
+    {
+      "item": "earth_life_sciences:blood_test_kit"
+    },
+    {
+      "recipe": "earth_life_sciences:blood_test_kit"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_life_sciences:slide_kit",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_life_sciences:petri_dish",
+        "count": 2
+      },
+      {
+        "ingredient": "earth_life_sciences:patient_chart",
+        "count": 1
+      }
+    ],
+    "ticks": 6000
+  },
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.med.laboratory_medicine",
+  "desc_key": "lore.earth_life_sciences.med.laboratory_medicine.desc"
+}

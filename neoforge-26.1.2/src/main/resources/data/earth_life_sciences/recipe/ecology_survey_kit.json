@@ -1,0 +1,17 @@
+{
+  "type": "earth_lore:gated",
+  "node": "earth_life_sciences:bio/ecology",
+  "recipe": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      "earth_life_sciences:field_guide",
+      "earth_on_minecraft:survey_stake",
+      "earth_on_minecraft:survey_stake",
+      "minecraft:spyglass"
+    ],
+    "result": {
+      "id": "earth_life_sciences:ecology_survey_kit",
+      "count": 1
+    }
+  }
+}

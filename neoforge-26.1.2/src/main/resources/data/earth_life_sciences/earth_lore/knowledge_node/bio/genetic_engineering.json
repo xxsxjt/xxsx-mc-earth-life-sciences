@@ -1,0 +1,49 @@
+{
+  "discipline": "earth_lore:bio",
+  "tier": 9,
+  "gate": "hard",
+  "requires": [
+    {
+      "all": "earth_life_sciences:bio/plant_breeding"
+    },
+    {
+      "all": "earth_life_sciences:bio/genomics"
+    }
+  ],
+  "item_requires": [],
+  "unlocks": [
+    {
+      "block": "earth_life_sciences:gene_editor"
+    },
+    {
+      "item": "earth_life_sciences:gene_editor"
+    },
+    {
+      "recipe": "earth_life_sciences:gene_editor"
+    }
+  ],
+  "literature": [
+    "notes"
+  ],
+  "teachers": [],
+  "fail_codes": [],
+  "name_key": "lore.earth_life_sciences.bio.genetic_engineering",
+  "desc_key": "lore.earth_life_sciences.bio.genetic_engineering.desc",
+  "research": {
+    "items": [
+      {
+        "ingredient": "earth_life_sciences:pure_culture",
+        "count": 4
+      },
+      {
+        "ingredient": "earth_life_sciences:tissue_sample",
+        "count": 8
+      },
+      {
+        "ingredient": "minecraft:wheat_seeds",
+        "count": 16
+      }
+    ],
+    "ticks": 9600
+  }
+}
