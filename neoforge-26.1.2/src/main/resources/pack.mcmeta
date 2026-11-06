@@ -1,6 +1,7 @@
 {
   "pack": {
-    "description": "Earth: Life Sciences resources",
-    "pack_format": 61
+    "description": "Earth: Life Sciences resources and data",
+    "min_format": [88, 0],
+    "max_format": [107, 1]
   }
 }
