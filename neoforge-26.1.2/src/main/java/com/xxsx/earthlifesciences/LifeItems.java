@@ -781,6 +781,10 @@ public final class LifeItems {
                 serverPlayer.sendOverlayMessage(failMsg("ineffective"));
                 return InteractionResult.FAIL;
             }
+            if (!"naloxone".equals(category) && !EarthHumanCompat.needsTreatment(serverPlayer)) {
+                serverPlayer.sendOverlayMessage(failMsg("ineffective"));
+                return InteractionResult.FAIL;
+            }
             serverPlayer.getCooldowns().addCooldown(stack, 1200);
             applyDrugEffect(serverPlayer, pharma, att);
             stack.shrink(1);
@@ -801,13 +805,16 @@ public final class LifeItems {
                 case "antibiotic" -> {
                     EarthHumanCompat.treatConditionOrFallback(player, "wound_infection");
                     player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, duration / 3, 0));
+                    EarthHumanCompat.treatFractureAndCleanseAir(player, 0.45D * mult, 3.5D * mult, 25.0D * mult, 0.0D, 12.0D * mult);
                 }
                 case "antifungal", "antiviral" -> {
                     EarthHumanCompat.treatConditionOrFallback(player, "influenza");
                     player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, duration / 4, 0));
+                    EarthHumanCompat.treatFractureAndCleanseAir(player, 0.30D * mult, 2.5D * mult, 35.0D * mult, 0.0D, 10.0D * mult);
                 }
                 case "analgesic", "anesthetic" -> {
                     player.addEffect(new MobEffectInstance(MobEffects.RESISTANCE, duration, 0));
+                    EarthHumanCompat.treatFractureAndCleanseAir(player, 0.65D * mult, 3.0D * mult, 15.0D * mult, 0.0D, 20.0D * mult);
                     if (controlled) {
                         att.addDependence(10);
                         player.setData(EarthLifeSciences.MEDICAL_ATTACHMENT.get(), att);
@@ -820,7 +827,7 @@ public final class LifeItems {
                 }
                 default -> {
                     if (EarthHumanCompat.isLoaded()) {
-                        EarthHumanCompat.recoverAllParts(player, 10.0D * mult, 2.0D * mult);
+                        EarthHumanCompat.treatFractureAndCleanseAir(player, 0.50D * mult, 3.0D * mult, 30.0D * mult, 15.0D * mult, 15.0D * mult);
                     } else {
                         player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, duration / 3, 0));
                     }

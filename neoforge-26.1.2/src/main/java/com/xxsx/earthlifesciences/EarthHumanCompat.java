@@ -98,6 +98,59 @@ public final class EarthHumanCompat {
         return recover(player, fatigueReduction, bodyHeal, "head", "torso", "limbs", "left_arm", "right_arm", "left_leg", "right_leg");
     }
 
+    public static boolean needsTreatment(ServerPlayer player) {
+        if (player.getHealth() < player.getMaxHealth() - 0.05F) {
+            return true;
+        }
+        if (player.hasEffect(MobEffects.POISON) || player.hasEffect(MobEffects.WITHER)
+                || player.hasEffect(MobEffects.NAUSEA) || player.hasEffect(MobEffects.WEAKNESS)
+                || player.hasEffect(MobEffects.SLOWNESS) || player.hasEffect(MobEffects.HUNGER)) {
+            return true;
+        }
+        VitalsSnapshot snap = snapshot(player);
+        if (snap.linked() && (snap.fatigue() > 1.0D || snap.bodyIntegrity() < 0.99D || snap.headIntegrity() < 0.99D
+                || snap.hydration() < 98.0D)) {
+            return true;
+        }
+        var data = player.getPersistentData();
+        return data.getDoubleOr("earth_human.body.injury.leg", 0.0D) > 0.01D
+                || data.getDoubleOr("earth_human.body.injury.right_hand", 0.0D) > 0.01D
+                || data.getDoubleOr("earth_human.air_quality", 100.0D) < 98.0D;
+    }
+
+    public static void treatFractureAndCleanseAir(ServerPlayer player, double fractureRelief,
+                                                  double bodyHeal, double lungAirRestore,
+                                                  double hydrationBonus, double fatigueReduction) {
+        recoverAllParts(player, fatigueReduction, bodyHeal);
+        try {
+            Class<?> bodyClass = Class.forName("com.xxsx.earthhuman.HumanBodyStatus");
+            Class<?> statusClass = Class.forName("com.xxsx.earthhuman.HumanStatus");
+            Class<?> netClass = Class.forName("com.xxsx.earthhuman.HumanNetwork");
+
+            Object body = bodyClass.getMethod("get", Player.class).invoke(null, player);
+            if (fractureRelief > 0.0D) {
+                bodyClass.getMethod("treatFracture", ServerPlayer.class, double.class, double.class)
+                        .invoke(body, player, fractureRelief, bodyHeal);
+            }
+            bodyClass.getMethod("applyFunctionalEffects", ServerPlayer.class).invoke(body, player);
+            bodyClass.getMethod("save", Player.class).invoke(body, player);
+            netClass.getMethod("syncBody", ServerPlayer.class, bodyClass).invoke(null, player, body);
+
+            Object status = statusClass.getMethod("get", Player.class).invoke(null, player);
+            if (lungAirRestore > 0.0D) {
+                double air = statusClass.getField("airQuality").getDouble(status);
+                statusClass.getField("airQuality").setDouble(status, Math.max(0.0D, Math.min(100.0D, air + lungAirRestore)));
+            }
+            if (hydrationBonus > 0.0D) {
+                double h = statusClass.getField("hydration").getDouble(status);
+                statusClass.getField("hydration").setDouble(status, Math.max(0.0D, Math.min(100.0D, h + hydrationBonus)));
+            }
+            statusClass.getMethod("save", Player.class).invoke(status, player);
+            netClass.getMethod("sync", ServerPlayer.class, statusClass).invoke(null, player, status);
+        } catch (Throwable ignored) {
+        }
+    }
+
     /** B-053 fallback condition applicator when v2 is unavailable. */
     public static void addConditionOrFallback(LivingEntity target, String conditionId, double severity, int fallbackTicks) {
         if (target == null) {
