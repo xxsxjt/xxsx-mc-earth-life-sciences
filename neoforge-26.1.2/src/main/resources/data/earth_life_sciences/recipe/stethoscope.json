@@ -7,7 +7,7 @@
   ],
   "key": {
     "S": "minecraft:slime_ball",
-    "I": "earth_on_minecraft:steel"
+    "I": "earth_core:steel"
   },
   "result": {
     "id": "earth_life_sciences:stethoscope",

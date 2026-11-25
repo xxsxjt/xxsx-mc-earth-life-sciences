@@ -1,6 +1,6 @@
-package com.xxsx.earthlifesciences;
+package com.xxsx.earth.life;
 
-import com.xxsx.earthlore.api.Grade;
+import com.xxsx.earth.lore.api.Grade;
 import java.util.List;
 import java.util.Locale;
 import java.util.Optional;

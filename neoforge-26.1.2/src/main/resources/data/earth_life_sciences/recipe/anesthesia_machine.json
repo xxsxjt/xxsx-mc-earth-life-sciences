@@ -10,9 +10,9 @@
     ],
     "key": {
       "G": "minecraft:glass",
-      "C": "earth_on_minecraft:copper_power_cable",
+      "C": "earth_core:copper_power_cable",
       "B": "minecraft:bucket",
-      "S": "earth_on_minecraft:steel"
+      "S": "earth_core:steel"
     },
     "result": {
       "id": "earth_life_sciences:anesthesia_machine",

@@ -1,8 +1,8 @@
-package com.xxsx.earthlifesciences;
+package com.xxsx.earth.life;
 
-import com.xxsx.earthonminecraft.component.EarthDataComponents;
-import com.xxsx.earthonminecraft.component.Grade;
-import com.xxsx.earthonminecraft.component.PharmaceuticalComponent;
+import com.xxsx.earth.core.component.EarthDataComponents;
+import com.xxsx.earth.core.component.Grade;
+import com.xxsx.earth.core.component.PharmaceuticalComponent;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
@@ -317,9 +317,9 @@ public final class LifeItems {
             ItemStack off = serverPlayer.getOffhandItem();
             Identifier offId = BuiltInRegistries.ITEM.getKey(off.getItem());
             String sourceKey = "";
-            if ("earth_on_minecraft:milk".equals(offId.toString())) {
+            if ("earth_core:milk".equals(offId.toString())) {
                 sourceKey = "milk";
-            } else if ("earth_on_minecraft:yeast".equals(offId.toString())) {
+            } else if ("earth_core:yeast".equals(offId.toString())) {
                 sourceKey = "yeast";
             }
             if (sourceKey.isEmpty()) {
@@ -720,7 +720,7 @@ public final class LifeItems {
         public static InteractionResult vaccinate(ServerPlayer doctor, ItemStack vaccine, LivingEntity target) {
             ItemStack off = doctor.getOffhandItem();
             Identifier offId = BuiltInRegistries.ITEM.getKey(off.getItem());
-            if (!"earth_on_minecraft:syringe".equals(offId.toString())) {
+            if (!"earth_core:syringe".equals(offId.toString())) {
                 doctor.sendOverlayMessage(failMsg("no_syringe"));
                 return InteractionResult.FAIL;
             }
@@ -895,7 +895,7 @@ public final class LifeItems {
             for (int dy = -2; dy <= 2; dy++) {
                 for (int dz = -3; dz <= 3; dz++) {
                     Identifier id = BuiltInRegistries.BLOCK.getKey(level.getBlockState(center.offset(dx, dy, dz)).getBlock());
-                    if ("earth_on_minecraft:operating_table".equals(id.toString())) {
+                    if ("earth_core:operating_table".equals(id.toString())) {
                         return true;
                     }
                 }

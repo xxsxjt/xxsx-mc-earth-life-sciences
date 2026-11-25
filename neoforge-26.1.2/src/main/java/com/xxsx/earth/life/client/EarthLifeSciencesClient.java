@@ -1,7 +1,7 @@
-package com.xxsx.earthlifesciences.client;
+package com.xxsx.earth.life.client;
 
-import com.xxsx.earthlifesciences.EarthLifeSciences;
-import com.xxsx.earthlifesciences.LifeMenus;
+import com.xxsx.earth.life.EarthLifeSciences;
+import com.xxsx.earth.life.LifeMenus;
 import net.minecraft.client.gui.GuiGraphicsExtractor;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.renderer.block.FluidModel;

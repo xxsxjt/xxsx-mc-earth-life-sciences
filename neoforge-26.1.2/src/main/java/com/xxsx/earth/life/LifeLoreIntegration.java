@@ -1,9 +1,9 @@
-package com.xxsx.earthlifesciences;
+package com.xxsx.earth.life;
 
-import com.xxsx.earthlore.api.LoreApi;
-import com.xxsx.earthonminecraft.component.EarthDataComponents;
-import com.xxsx.earthonminecraft.component.Grade;
-import com.xxsx.earthonminecraft.component.PharmaceuticalComponent;
+import com.xxsx.earth.lore.api.LoreApi;
+import com.xxsx.earth.core.component.EarthDataComponents;
+import com.xxsx.earth.core.component.Grade;
+import com.xxsx.earth.core.component.PharmaceuticalComponent;
 import net.minecraft.resources.Identifier;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.item.Item;
@@ -65,7 +65,7 @@ public final class LifeLoreIntegration {
         return player != null && LoreApi.knows(player, node);
     }
 
-    public static Grade toEomGrade(com.xxsx.earthlore.api.Grade loreGrade) {
+    public static Grade toEomGrade(com.xxsx.earth.lore.api.Grade loreGrade) {
         if (loreGrade == null) {
             return Grade.COMMON;
         }
@@ -78,21 +78,21 @@ public final class LifeLoreIntegration {
         };
     }
 
-    public static com.xxsx.earthlore.api.Grade toLoreGrade(Grade eomGrade) {
+    public static com.xxsx.earth.lore.api.Grade toLoreGrade(Grade eomGrade) {
         if (eomGrade == null) {
-            return com.xxsx.earthlore.api.Grade.COMMON;
+            return com.xxsx.earth.lore.api.Grade.COMMON;
         }
         return switch (eomGrade) {
-            case CRUDE -> com.xxsx.earthlore.api.Grade.CRUDE;
-            case COMMON -> com.xxsx.earthlore.api.Grade.COMMON;
-            case FINE -> com.xxsx.earthlore.api.Grade.FINE;
-            case MASTERWORK -> com.xxsx.earthlore.api.Grade.MASTERWORK;
-            case HEIRLOOM -> com.xxsx.earthlore.api.Grade.HEIRLOOM;
+            case CRUDE -> com.xxsx.earth.lore.api.Grade.CRUDE;
+            case COMMON -> com.xxsx.earth.lore.api.Grade.COMMON;
+            case FINE -> com.xxsx.earth.lore.api.Grade.FINE;
+            case MASTERWORK -> com.xxsx.earth.lore.api.Grade.MASTERWORK;
+            case HEIRLOOM -> com.xxsx.earth.lore.api.Grade.HEIRLOOM;
         };
     }
 
     public static ItemStack stampPharmaceutical(Item item, int count, String drugSlug,
-                                                com.xxsx.earthlore.api.Grade loreGrade, double purity,
+                                                com.xxsx.earth.lore.api.Grade loreGrade, double purity,
                                                 int doseMg, PharmaceuticalComponent.Form form) {
         ItemStack stack = new ItemStack(item, count);
         stack.set(EarthDataComponents.PHARMACEUTICAL.get(), new PharmaceuticalComponent(

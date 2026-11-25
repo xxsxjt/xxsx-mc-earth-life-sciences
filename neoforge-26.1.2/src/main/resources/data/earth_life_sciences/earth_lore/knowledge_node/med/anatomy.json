@@ -4,7 +4,7 @@
   "gate": "theory",
   "requires": [
     {
-      "all": "earth_on_minecraft:med/medicine_basics"
+      "all": "earth_core:med/medicine_basics"
     }
   ],
   "item_requires": [],

@@ -37,11 +37,11 @@
         "count": 2
       },
       {
-        "ingredient": "earth_on_minecraft:glucose",
+        "ingredient": "earth_core:glucose",
         "count": 8
       },
       {
-        "ingredient": "earth_on_minecraft:steel",
+        "ingredient": "earth_core:steel",
         "count": 4
       }
     ],

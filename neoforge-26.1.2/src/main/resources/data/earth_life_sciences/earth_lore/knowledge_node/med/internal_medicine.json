@@ -4,7 +4,7 @@
   "gate": "soft",
   "requires": [
     {
-      "all": "earth_on_minecraft:med/advanced_pharmacy"
+      "all": "earth_core:med/advanced_pharmacy"
     },
     {
       "all": "earth_life_sciences:med/infectious_disease"
@@ -42,7 +42,7 @@
         "count": 4
       },
       {
-        "ingredient": "earth_on_minecraft:glucose",
+        "ingredient": "earth_core:glucose",
         "count": 4
       }
     ],

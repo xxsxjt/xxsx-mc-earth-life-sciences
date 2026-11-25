@@ -6,9 +6,9 @@
     "SBS"
   ],
   "key": {
-    "L": "earth_on_minecraft:optical_glass",
-    "B": "earth_on_minecraft:brass",
-    "S": "earth_on_minecraft:steel"
+    "L": "earth_core:optical_glass",
+    "B": "earth_core:brass",
+    "S": "earth_core:steel"
   },
   "result": {
     "id": "earth_life_sciences:microscope",

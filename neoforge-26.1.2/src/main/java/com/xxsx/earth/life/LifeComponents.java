@@ -1,4 +1,4 @@
-package com.xxsx.earthlifesciences;
+package com.xxsx.earth.life;
 
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;

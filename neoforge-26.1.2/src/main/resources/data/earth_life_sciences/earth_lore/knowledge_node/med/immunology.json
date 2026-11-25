@@ -4,7 +4,7 @@
   "gate": "soft",
   "requires": [
     {
-      "all": "earth_on_minecraft:med/serum_therapy"
+      "all": "earth_core:med/serum_therapy"
     },
     {
       "all": "earth_life_sciences:med/epidemiology"
@@ -30,7 +30,7 @@
         "count": 2
       },
       {
-        "ingredient": "earth_on_minecraft:syringe",
+        "ingredient": "earth_core:syringe",
         "count": 2
       }
     ],

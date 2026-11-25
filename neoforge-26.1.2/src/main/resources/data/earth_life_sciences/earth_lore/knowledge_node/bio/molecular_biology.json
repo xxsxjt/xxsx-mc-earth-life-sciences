@@ -26,11 +26,11 @@
         "count": 4
       },
       {
-        "ingredient": "earth_on_minecraft:ethanol",
+        "ingredient": "earth_core:ethanol",
         "count": 4
       },
       {
-        "ingredient": "earth_on_minecraft:sodium_bicarbonate",
+        "ingredient": "earth_core:sodium_bicarbonate",
         "count": 2
       }
     ],

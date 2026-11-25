@@ -7,7 +7,7 @@
       "all": "earth_life_sciences:bio/natural_history"
     },
     {
-      "all": "earth_on_minecraft:agr/tillage"
+      "all": "earth_core:agr/tillage"
     }
   ],
   "item_requires": [],

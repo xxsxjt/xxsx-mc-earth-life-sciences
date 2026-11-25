@@ -7,7 +7,7 @@
       "all": "earth_life_sciences:bio/natural_history"
     },
     {
-      "all": "earth_on_minecraft:agr/husbandry"
+      "all": "earth_core:agr/husbandry"
     }
   ],
   "item_requires": [],

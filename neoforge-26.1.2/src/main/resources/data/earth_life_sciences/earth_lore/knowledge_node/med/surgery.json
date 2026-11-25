@@ -4,7 +4,7 @@
   "gate": "hard",
   "requires": [
     {
-      "all": "earth_on_minecraft:med/wound_care"
+      "all": "earth_core:med/wound_care"
     },
     {
       "all": "earth_life_sciences:med/anatomy"
@@ -15,7 +15,7 @@
   ],
   "item_requires": [
     {
-      "made": "earth_on_minecraft:scalpel"
+      "made": "earth_core:scalpel"
     }
   ],
   "unlocks": [
@@ -36,15 +36,15 @@
   "research": {
     "items": [
       {
-        "ingredient": "earth_on_minecraft:suture_thread",
+        "ingredient": "earth_core:suture_thread",
         "count": 4
       },
       {
-        "ingredient": "earth_on_minecraft:scalpel",
+        "ingredient": "earth_core:scalpel",
         "count": 1
       },
       {
-        "ingredient": "earth_on_minecraft:forceps",
+        "ingredient": "earth_core:forceps",
         "count": 1
       }
     ],

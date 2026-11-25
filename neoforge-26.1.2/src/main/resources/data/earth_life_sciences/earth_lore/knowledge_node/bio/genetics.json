@@ -10,7 +10,7 @@
       "all": "earth_life_sciences:bio/botany"
     },
     {
-      "all": "earth_on_minecraft:agr/seed_selection"
+      "all": "earth_core:agr/seed_selection"
     }
   ],
   "item_requires": [],

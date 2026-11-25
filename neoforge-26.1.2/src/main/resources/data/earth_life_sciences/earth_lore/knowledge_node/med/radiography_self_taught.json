@@ -16,7 +16,7 @@
   "research": {
     "items": [
       {
-        "ingredient": "earth_on_minecraft:lead",
+        "ingredient": "earth_core:lead",
         "count": 16
       },
       {
@@ -24,7 +24,7 @@
         "count": 8
       },
       {
-        "ingredient": "earth_on_minecraft:copper_power_cable",
+        "ingredient": "earth_core:copper_power_cable",
         "count": 8
       }
     ],

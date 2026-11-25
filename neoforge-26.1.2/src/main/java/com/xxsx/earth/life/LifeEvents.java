@@ -1,7 +1,7 @@
-package com.xxsx.earthlifesciences;
+package com.xxsx.earth.life;
 
-import com.xxsx.earthonminecraft.component.Grade;
-import com.xxsx.earthonminecraft.component.PharmaceuticalComponent;
+import com.xxsx.earth.core.component.Grade;
+import com.xxsx.earth.core.component.PharmaceuticalComponent;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.server.level.ServerLevel;
@@ -81,7 +81,7 @@ public final class LifeEvents {
     }
 
     private static Item eomBandage() {
-        Item item = BuiltInRegistries.ITEM.getValue(Identifier.fromNamespaceAndPath("earth_on_minecraft", "bandage"));
+        Item item = BuiltInRegistries.ITEM.getValue(Identifier.fromNamespaceAndPath("earth_core", "bandage"));
         return item == Items.AIR ? Items.PAPER : item;
     }
 
@@ -95,7 +95,7 @@ public final class LifeEvents {
             case 5 -> {
                 ItemStack pen = LifeLoreIntegration.stampPharmaceutical(
                         EarthLifeSciences.PENICILLIN.get(), 2, "penicillin",
-                        com.xxsx.earthlore.api.Grade.COMMON, 0.85D, 250, PharmaceuticalComponent.Form.TABLET);
+                        com.xxsx.earth.lore.api.Grade.COMMON, 0.85D, 250, PharmaceuticalComponent.Form.TABLET);
                 offers.add(new MerchantOffer(new ItemCost(Items.EMERALD, 12), pen, 8, 30, 0.05F));
             }
         }

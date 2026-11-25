@@ -9,7 +9,7 @@
   ],
   "item_requires": [
     {
-      "made": "earth_on_minecraft:optical_glass"
+      "made": "earth_core:optical_glass"
     }
   ],
   "unlocks": [
@@ -32,7 +32,7 @@
   "research": {
     "items": [
       {
-        "ingredient": "earth_on_minecraft:optical_glass",
+        "ingredient": "earth_core:optical_glass",
         "count": 2
       },
       {

@@ -7,7 +7,7 @@
   ],
   "key": {
     "P": "minecraft:paper",
-    "C": "earth_on_minecraft:medical_kit",
+    "C": "earth_core:medical_kit",
     "W": "minecraft:oak_planks"
   },
   "result": {

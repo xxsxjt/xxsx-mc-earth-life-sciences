@@ -4,7 +4,7 @@ plugins {
 }
 
 version = '0.1.0'
-group = 'com.xxsx.earthlifesciences'
+group = 'com.xxsx.earth.life'
 base.archivesName = 'earth-life-sciences-neoforge-26.1.2'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(25)
@@ -43,7 +43,7 @@ repositories {
 
 dependencies {
     implementation files('../../earth_lore/neoforge-26.1.2/build/libs/earth-lore-neoforge-26.1.2-0.1.0.jar')
-    implementation files('../../earth_on_minecraft/neoforge-26.2/build/libs/earth-on-minecraft-neoforge-26.1.2-0.2.0.jar')
+    implementation files('../../earth_core/neoforge-26.1.2/build/libs/earth-core-neoforge-26.1.2-0.2.0.jar')
     compileOnly 'mezz.jei:jei-26.1.2-common-api:29.53.0.112'
     compileOnly 'mezz.jei:jei-26.1.2-neoforge-api:29.53.0.112'
     testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'

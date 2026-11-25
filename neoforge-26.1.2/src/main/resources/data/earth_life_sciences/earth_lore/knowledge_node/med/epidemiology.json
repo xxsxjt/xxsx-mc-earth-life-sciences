@@ -4,7 +4,7 @@
   "gate": "theory",
   "requires": [
     {
-      "all": "earth_on_minecraft:med/public_health"
+      "all": "earth_core:med/public_health"
     },
     {
       "all": "earth_life_sciences:med/infectious_disease"

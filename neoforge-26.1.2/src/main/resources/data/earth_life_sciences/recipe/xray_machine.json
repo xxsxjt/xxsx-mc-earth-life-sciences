@@ -6,10 +6,10 @@
     "LSL"
   ],
   "key": {
-    "L": "earth_on_minecraft:lead",
-    "C": "earth_on_minecraft:copper_power_cable",
+    "L": "earth_core:lead",
+    "C": "earth_core:copper_power_cable",
     "G": "minecraft:glass",
-    "S": "earth_on_minecraft:steel"
+    "S": "earth_core:steel"
   },
   "result": {
     "id": "earth_life_sciences:xray_machine",
