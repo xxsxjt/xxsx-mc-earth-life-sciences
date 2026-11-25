@@ -7,7 +7,7 @@
   ],
   "key": {
     "H": "minecraft:tripwire_hook",
-    "S": "earth_on_minecraft:steel"
+    "S": "earth_core:steel"
   },
   "result": {
     "id": "earth_life_sciences:iv_stand",

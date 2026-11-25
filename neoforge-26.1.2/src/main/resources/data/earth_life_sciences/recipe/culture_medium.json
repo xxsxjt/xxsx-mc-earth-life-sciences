@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    "earth_on_minecraft:kelp",
-    "earth_on_minecraft:kelp",
-    "earth_on_minecraft:glucose",
+    "earth_core:kelp",
+    "earth_core:kelp",
+    "earth_core:glucose",
     "minecraft:water_bucket"
   ],
   "result": {

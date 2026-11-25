@@ -1,4 +1,4 @@
-package com.xxsx.earthlifesciences;
+package com.xxsx.earth.life;
 
 import java.util.function.Supplier;
 import net.minecraft.core.BlockPos;

@@ -1,15 +1,15 @@
-package com.xxsx.earthlifesciences;
+package com.xxsx.earth.life;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import com.xxsx.earthlore.api.Grade;
-import com.xxsx.earthlore.core.Gate;
-import com.xxsx.earthlore.core.GraphValidator;
-import com.xxsx.earthlore.core.NodeDef;
-import com.xxsx.earthlore.core.Prereq;
-import com.xxsx.earthlore.core.Reachability;
+import com.xxsx.earth.lore.api.Grade;
+import com.xxsx.earth.lore.core.Gate;
+import com.xxsx.earth.lore.core.GraphValidator;
+import com.xxsx.earth.lore.core.NodeDef;
+import com.xxsx.earth.lore.core.Prereq;
+import com.xxsx.earth.lore.core.Reachability;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -31,7 +31,7 @@ class LifeSciencesLoreIntegrationTest {
     );
     private static final GraphValidator.DependencyRule DEPS = (owner, other) ->
             owner.equals(other) || "earth_lore".equals(other)
-                    || ("earth_life_sciences".equals(owner) && "earth_on_minecraft".equals(other));
+                    || ("earth_life_sciences".equals(owner) && "earth_core".equals(other));
 
     @Test
     void allThirtyEightLifeScienceNodesAndEomNodesValidateAndAreReachableWithoutPhysicalSciences() throws IOException {
@@ -42,8 +42,8 @@ class LifeSciencesLoreIntegrationTest {
         assertEquals(38, lifeNodes.size(), "Expected 17 BIO + 21 MED = 38 nodes");
 
         List<NodeDef> eomNodes = loadNodes(
-                Path.of("../../earth_on_minecraft/neoforge-26.2/src/main/resources/data/earth_on_minecraft/earth_lore/knowledge_node"),
-                "earth_on_minecraft"
+                Path.of("../../earth_core/neoforge-26.1.2/src/main/resources/data/earth_core/earth_lore/knowledge_node"),
+                "earth_core"
         );
         List<NodeDef> combined = new ArrayList<>();
         combined.addAll(eomNodes);

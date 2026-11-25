@@ -4,13 +4,13 @@
   "gate": "soft",
   "requires": [
     {
-      "all": "earth_on_minecraft:med/sulfa_drugs"
+      "all": "earth_core:med/sulfa_drugs"
     },
     {
       "all": "earth_life_sciences:med/infectious_disease"
     },
     {
-      "all": "earth_on_minecraft:che/organic_chemistry"
+      "all": "earth_core:che/organic_chemistry"
     }
   ],
   "item_requires": [
@@ -34,7 +34,7 @@
         "count": 2
       },
       {
-        "ingredient": "earth_on_minecraft:glucose",
+        "ingredient": "earth_core:glucose",
         "count": 8
       },
       {

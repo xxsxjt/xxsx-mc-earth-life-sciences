@@ -1,10 +1,10 @@
-package com.xxsx.earthlifesciences;
+package com.xxsx.earth.life;
 
 import com.google.common.collect.ImmutableSet;
-import com.xxsx.earthlifesciences.client.EarthLifeSciencesClient;
-import com.xxsx.earthonminecraft.component.EarthDataComponents;
-import com.xxsx.earthonminecraft.component.MaterialBatch;
-import com.xxsx.earthonminecraft.component.PharmaceuticalComponent;
+import com.xxsx.earth.life.client.EarthLifeSciencesClient;
+import com.xxsx.earth.core.component.EarthDataComponents;
+import com.xxsx.earth.core.component.MaterialBatch;
+import com.xxsx.earth.core.component.PharmaceuticalComponent;
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -391,7 +391,7 @@ public final class EarthLifeSciences {
         DeferredItem<LifeItems.LifeDrugItem> item = ITEMS.registerItem(slug,
                 p -> new LifeItems.LifeDrugItem(p, slug, category, chronic, controlled),
                 p -> p.stacksTo(16).component(EarthDataComponents.PHARMACEUTICAL.get(),
-                        new PharmaceuticalComponent(1, slug, com.xxsx.earthonminecraft.component.Grade.COMMON, 0.90D, 100,
+                        new PharmaceuticalComponent(1, slug, com.xxsx.earth.core.component.Grade.COMMON, 0.90D, 100,
                                 PharmaceuticalComponent.Form.TABLET, "ELS-01", "cool_dry")));
         DRUG_ITEMS.put(slug, item);
         TAB_ITEMS.add(item);

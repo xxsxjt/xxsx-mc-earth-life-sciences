@@ -7,7 +7,7 @@
       "all": "earth_life_sciences:bio/cell_biology"
     },
     {
-      "all": "earth_on_minecraft:che/organic_chemistry"
+      "all": "earth_core:che/organic_chemistry"
     }
   ],
   "item_requires": [],
@@ -32,11 +32,11 @@
   "research": {
     "items": [
       {
-        "ingredient": "earth_on_minecraft:glucose",
+        "ingredient": "earth_core:glucose",
         "count": 4
       },
       {
-        "ingredient": "earth_on_minecraft:ethanol",
+        "ingredient": "earth_core:ethanol",
         "count": 2
       },
       {

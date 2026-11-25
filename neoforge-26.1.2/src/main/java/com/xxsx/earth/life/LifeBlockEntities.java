@@ -1,17 +1,17 @@
-package com.xxsx.earthlifesciences;
+package com.xxsx.earth.life;
 
 import net.minecraft.world.InteractionResult;
 
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
-import com.xxsx.earthlore.api.GateResult;
-import com.xxsx.earthlore.api.LoreApi;
-import com.xxsx.earthlore.api.LoreMachines;
-import com.xxsx.earthonminecraft.ElectricEnergyStorage;
-import com.xxsx.earthonminecraft.EnergyNetwork;
-import com.xxsx.earthonminecraft.component.EarthDataComponents;
-import com.xxsx.earthonminecraft.component.MaterialBatch;
-import com.xxsx.earthonminecraft.component.PharmaceuticalComponent;
+import com.xxsx.earth.lore.api.GateResult;
+import com.xxsx.earth.lore.api.LoreApi;
+import com.xxsx.earth.lore.api.LoreMachines;
+import com.xxsx.earth.core.ElectricEnergyStorage;
+import com.xxsx.earth.core.EnergyNetwork;
+import com.xxsx.earth.core.component.EarthDataComponents;
+import com.xxsx.earth.core.component.MaterialBatch;
+import com.xxsx.earth.core.component.PharmaceuticalComponent;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -283,7 +283,7 @@ public final class LifeBlockEntities {
                 return;
             }
             MaterialBatch batch = med.get(EarthDataComponents.MATERIAL_BATCH.get());
-            com.xxsx.earthlore.api.Grade medGrade = batch != null ? LifeLoreIntegration.toLoreGrade(batch.grade()) : com.xxsx.earthlore.api.Grade.COMMON;
+            com.xxsx.earth.lore.api.Grade medGrade = batch != null ? LifeLoreIntegration.toLoreGrade(batch.grade()) : com.xxsx.earth.lore.api.Grade.COMMON;
             double purity = LifeScienceMath.computeCulturePurity(dishSterile, medGrade, level.getRandom().nextDouble() * 0.10D);
             boolean pure = LifeScienceMath.isCulturePure(purity);
             dish.shrink(1);
@@ -477,7 +477,7 @@ public final class LifeBlockEntities {
                 adjFermenter.drainBroth(LifeScienceMath.CENTRIFUGE_MB_PER_CYCLE);
                 ItemStack carbon = be.items.get(0);
                 boolean hasCarbon = !carbon.isEmpty()
-                        && "earth_on_minecraft:activated_carbon".equals(BuiltInRegistries.ITEM.getKey(carbon.getItem()).toString());
+                        && "earth_core:activated_carbon".equals(BuiltInRegistries.ITEM.getKey(carbon.getItem()).toString());
                 if (hasCarbon) {
                     carbon.shrink(1);
                 }
@@ -503,7 +503,7 @@ public final class LifeBlockEntities {
                     : LifeLoreIntegration.NODE_BROAD_SPECTRUM;
             boolean knowsNode = owner.isPresent() && LoreApi.knows(owner.get(), gateNode);
             boolean knowsMastery = owner.isPresent() && LoreApi.knows(owner.get(), LifeLoreIntegration.NODE_MED_MASTERY);
-            com.xxsx.earthlore.api.Grade grade = LifeScienceMath.resolveCentrifugeDrugGrade(purity, knowsNode, knowsMastery);
+            com.xxsx.earth.lore.api.Grade grade = LifeScienceMath.resolveCentrifugeDrugGrade(purity, knowsNode, knowsMastery);
             Item drugItem = EarthLifeSciences.drugBySlug(product);
             return LifeLoreIntegration.stampPharmaceutical(drugItem, 2, product, grade, purity, 250, PharmaceuticalComponent.Form.TABLET);
         }
@@ -997,7 +997,7 @@ public final class LifeBlockEntities {
             boolean hasBed = false;
             for (Direction dir : Direction.values()) {
                 Identifier id = BuiltInRegistries.BLOCK.getKey(level.getBlockState(pos.relative(dir)).getBlock());
-                if ("earth_on_minecraft:sickbed".equals(id.toString())) {
+                if ("earth_core:sickbed".equals(id.toString())) {
                     hasBed = true;
                     break;
                 }
@@ -1056,11 +1056,11 @@ public final class LifeBlockEntities {
             if (be.agentTicks <= 0) {
                 ItemStack in = be.items.get(0);
                 String inId = BuiltInRegistries.ITEM.getKey(in.getItem()).toString();
-                if ("earth_on_minecraft:nitrous_oxide".equals(inId)) {
+                if ("earth_core:nitrous_oxide".equals(inId)) {
                     in.shrink(1);
                     be.agent = "nitrous_oxide";
                     be.agentTicks = 1200;
-                } else if ("earth_on_minecraft:diethyl_ether".equals(inId)) {
+                } else if ("earth_core:diethyl_ether".equals(inId)) {
                     in.shrink(1);
                     be.agent = "diethyl_ether";
                     be.agentTicks = 2400;

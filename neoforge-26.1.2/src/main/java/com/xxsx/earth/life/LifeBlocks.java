@@ -1,6 +1,6 @@
-package com.xxsx.earthlifesciences;
+package com.xxsx.earth.life;
 
-import com.xxsx.earthlore.api.LoreMachines;
+import com.xxsx.earth.lore.api.LoreMachines;
 import java.util.Optional;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -373,12 +373,12 @@ public final class LifeBlocks {
                 return InteractionResult.FAIL;
             }
             String id = BuiltInRegistries.ITEM.getKey(stack.getItem()).toString();
-            if ("earth_on_minecraft:nitrous_oxide".equals(id)) {
+            if ("earth_core:nitrous_oxide".equals(id)) {
                 stack.shrink(1);
                 amBe.loadAgent("nitrous_oxide", 1200);
                 return InteractionResult.SUCCESS;
             }
-            if ("earth_on_minecraft:diethyl_ether".equals(id)) {
+            if ("earth_core:diethyl_ether".equals(id)) {
                 stack.shrink(1);
                 amBe.loadAgent("diethyl_ether", 2400);
                 return InteractionResult.SUCCESS;

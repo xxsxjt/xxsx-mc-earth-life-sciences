@@ -4,7 +4,7 @@
   "gate": "hard",
   "requires": [
     {
-      "all": "earth_on_minecraft:med/anesthesia_basics"
+      "all": "earth_core:med/anesthesia_basics"
     },
     {
       "all": "earth_life_sciences:med/physiology"
@@ -38,11 +38,11 @@
   "research": {
     "items": [
       {
-        "ingredient": "earth_on_minecraft:diethyl_ether",
+        "ingredient": "earth_core:diethyl_ether",
         "count": 2
       },
       {
-        "ingredient": "earth_on_minecraft:nitrous_oxide",
+        "ingredient": "earth_core:nitrous_oxide",
         "count": 2
       }
     ],

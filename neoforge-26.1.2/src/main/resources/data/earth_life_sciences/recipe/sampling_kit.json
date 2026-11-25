@@ -1,8 +1,8 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    "earth_on_minecraft:cotton_cloth",
-    "earth_on_minecraft:cotton_cloth",
+    "earth_core:cotton_cloth",
+    "earth_core:cotton_cloth",
     "minecraft:stick",
     "minecraft:glass_bottle"
   ],

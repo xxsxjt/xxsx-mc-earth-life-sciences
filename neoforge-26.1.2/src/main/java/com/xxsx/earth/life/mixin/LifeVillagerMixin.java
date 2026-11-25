@@ -1,6 +1,6 @@
-package com.xxsx.earthlifesciences.mixin;
+package com.xxsx.earth.life.mixin;
 
-import com.xxsx.earthlifesciences.LifeEvents;
+import com.xxsx.earth.life.LifeEvents;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.npc.villager.Villager;
 import org.spongepowered.asm.mixin.Mixin;

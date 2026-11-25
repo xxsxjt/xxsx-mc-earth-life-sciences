@@ -6,7 +6,7 @@
     "SRS"
   ],
   "key": {
-    "S": "earth_on_minecraft:steel",
+    "S": "earth_core:steel",
     "R": "minecraft:redstone",
     "P": "minecraft:piston"
   },

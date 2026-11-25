@@ -1,4 +1,4 @@
-package com.xxsx.earthlifesciences;
+package com.xxsx.earth.life;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
@@ -17,7 +17,7 @@ import org.slf4j.LoggerFactory;
  */
 public final class EarthHumanCompat {
     private static final String MODID = "earth_human";
-    private static final String API_CLASS = "com.xxsx.earthhuman.api.EarthHumanApi";
+    private static final String API_CLASS = "com.xxsx.earth.human.api.EarthHumanApi";
     private static final Logger LOGGER = LoggerFactory.getLogger(EarthHumanCompat.class);
     private static volatile ApiBinding binding;
     private static volatile boolean resolved;
@@ -123,9 +123,9 @@ public final class EarthHumanCompat {
                                                   double hydrationBonus, double fatigueReduction) {
         recoverAllParts(player, fatigueReduction, bodyHeal);
         try {
-            Class<?> bodyClass = Class.forName("com.xxsx.earthhuman.HumanBodyStatus");
-            Class<?> statusClass = Class.forName("com.xxsx.earthhuman.HumanStatus");
-            Class<?> netClass = Class.forName("com.xxsx.earthhuman.HumanNetwork");
+            Class<?> bodyClass = Class.forName("com.xxsx.earth.human.HumanBodyStatus");
+            Class<?> statusClass = Class.forName("com.xxsx.earth.human.HumanStatus");
+            Class<?> netClass = Class.forName("com.xxsx.earth.human.HumanNetwork");
 
             Object body = bodyClass.getMethod("get", Player.class).invoke(null, player);
             if (fractureRelief > 0.0D) {

@@ -4,12 +4,12 @@
   "recipe": {
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
-      "earth_on_minecraft:scalpel",
-      "earth_on_minecraft:forceps",
-      "earth_on_minecraft:suture_thread",
-      "earth_on_minecraft:suture_thread",
-      "earth_on_minecraft:suture_thread",
-      "earth_on_minecraft:suture_thread",
+      "earth_core:scalpel",
+      "earth_core:forceps",
+      "earth_core:suture_thread",
+      "earth_core:suture_thread",
+      "earth_core:suture_thread",
+      "earth_core:suture_thread",
       "minecraft:leather"
     ],
     "result": {
